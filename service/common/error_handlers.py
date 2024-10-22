@@ -34,7 +34,7 @@ def bad_request(error):
         jsonify(status=status.HTTP_400_BAD_REQUEST,
                 error="Bad Request",
                 message=message),
-            status.HTTP_400_BAD_REQUEST,
+        status.HTTP_400_BAD_REQUEST,
     )
 
 
@@ -47,7 +47,7 @@ def not_found(error):
         jsonify(status=status.HTTP_404_NOT_FOUND,
                 error="Not Found",
                 message=message),
-            status.HTTP_404_NOT_FOUND,
+        status.HTTP_404_NOT_FOUND,
     )
 
 
